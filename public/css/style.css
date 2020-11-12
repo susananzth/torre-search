@@ -1,0 +1,19 @@
+.bg-cover{background: url('https://i.postimg.cc/4xtqqW42/Northern-Lights-Background-Picture-Postcard.png') no-repeat center;background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;height: 100%;width: 100%;}
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("https://i.postimg.cc/4xtqqW42/Northern-Lights-Background-Picture-Postcard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+}
