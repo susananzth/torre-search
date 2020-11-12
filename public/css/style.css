@@ -5,7 +5,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("https://i.postimg.cc/4xtqqW42/Northern-Lights-Background-Picture-Postcard.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 75%, #000000 100%), url("https://i.postimg.cc/rF2BRcKm/Northern-Lights-Background-Picture-Postcard-2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -16,4 +16,68 @@
     height: 100vh;
     padding: 0;
   }
+}
+.card-torre {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.icon-header{
+  font-size: 20rem;
+  color: #CDDC39;
+}
+.icon-header-2{
+  font-size: 18rem;
+  padding-top: 1rem;
+  color: #CDDC39;
+}
+
+
+/*!
+* Start Bootstrap - SB UI Kit Pro v1.0.2 (https://shop.startbootstrap.com/product/sb-ui-kit-pro)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under SEE_LICENSE (https://github.com/BlackrockDigital/sb-ui-kit-pro/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.lift {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+  -webkit-transition: box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+}
+.lift:hover {
+  -webkit-transform: translateY(-0.3333333333rem);
+          transform: translateY(-0.3333333333rem);
+  box-shadow: 0 0.5rem 2rem 0 rgba(31, 45, 65, 0.25);
+}
+.lift:active {
+  -webkit-transform: none;
+          transform: none;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+}
+.icon-stack {
+  border-radius: 100%;
+  height: 28rem;
+  width: 28rem;
+  background-color: #27292D;;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
