@@ -11,11 +11,12 @@
         <!-- Styles -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="{{asset('/vendor/fontawesome-free/css/all.min.css')}}">
+        <link href="{{asset('/css/theme.css')}}" rel="stylesheet">
         <link href="{{asset('/css/style.css')}}" rel="stylesheet">
     </head>
-    <body class="">
+    <body>
         <!-- Nav -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <!-- Logo -->
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">TORRE</a>

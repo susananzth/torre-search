@@ -10,7 +10,7 @@
           <div class="row">
             <!-- Card Opportunities -->
             <div class="col-sm-12 col-md-6 text-center">
-              <a class="icon-stack lift" href="">
+              <a class="icon-stack lift" href="{{ url('opportunities') }}">
                 <i class="fas fa-briefcase icon-header"></i>
               </a>
             </div>
