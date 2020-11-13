@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <!-- Logo -->
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">TORRE</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">torre</a>
             </div>
         </nav>
         <header class="masthead">

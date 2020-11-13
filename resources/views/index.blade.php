@@ -8,18 +8,14 @@
         <div class="card-body p-0">
           <!-- Row -->
           <div class="row">
-            <!-- Card Opportunities -->
-            <div class="col-sm-12 col-md-6 text-center">
-              <a class="icon-stack lift" href="{{ url('opportunities') }}">
+            <!-- A Opportunities -->
+              <a class="col-sm-12 col-md-6 text-center icon-stack lift" href="{{ url('opportunities') }}">
                 <i class="fas fa-briefcase icon-header"></i>
               </a>
-            </div>
-            <!-- Card People -->
-            <div class="col-sm-12 col-md-6 text-center">
-              <a class="icon-stack lift" href="{{ url('people') }}">
+            <!-- A People -->
+              <a class="col-sm-12 col-md-6 text-center icon-stack lift" href="{{ url('people') }}">
                 <i class="fas fa-id-card-alt icon-header-2"></i>
               </a>
-            </div>
           </div><!-- END Row -->
         </div>
       </div><!-- END Card-torre -->
