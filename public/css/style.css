@@ -3,19 +3,26 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 25rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 75%, #000000 100%), url("https://i.postimg.cc/rF2BRcKm/Northern-Lights-Background-Picture-Postcard-2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-    padding: 0;
-  }
+.icon-stack {
+  border-radius: 100%;
+  height: 28rem;
+  width: 28rem;
+  background-color: #27292D;;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
+
 .card-torre {
     position: relative;
     display: -ms-flexbox;
@@ -44,7 +51,6 @@
 }
 .torre-form-search{
     margin: 0 auto;
-    padding-top: 5%;
     padding-bottom: 1rem;
 }
 a {
@@ -117,19 +123,36 @@ a:hover {
           transform: none;
   box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
 }
-.icon-stack {
-  border-radius: 100%;
-  height: 28rem;
-  width: 28rem;
-  background-color: #27292D;;
-  display: -webkit-inline-box;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-}
 .page-header-content{
   -webkit-box-pack: center;
           justify-content: center;
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  .icon-header{
+      font-size: 5rem;
+  }
+  .icon-stack {
+    height: 8rem;
+    width: 8rem;
+  }
+  .masthead {
+    padding: 0;
+    padding-top: 7rem !important;
+  }
+  .form-control {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+  }
+  .btn-search {
+    padding: .20rem 1rem .20rem 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+}
 }
