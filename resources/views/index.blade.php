@@ -16,7 +16,7 @@
             </div>
             <!-- Card People -->
             <div class="col-sm-12 col-md-6 text-center">
-              <a class="icon-stack lift" href="">
+              <a class="icon-stack lift" href="{{ url('people') }}">
                 <i class="fas fa-id-card-alt icon-header-2"></i>
               </a>
             </div>

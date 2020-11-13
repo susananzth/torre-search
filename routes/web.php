@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/opportunities', function () {
     return view('search.opportunities');
 });
+Route::get('/people', function () {
+    return view('search.people');
+});
+Route::get('/biopeople', [TorreController::class, 'index'])->name('biopeople');

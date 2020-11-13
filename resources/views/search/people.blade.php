@@ -1,14 +1,19 @@
 @extends('layouts.external')
 
 @section('content')
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-xl-10 col-lg-12 col-md-9">
-      <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+<div class="container d-flex h-100 align-items-center">
+  <div class="mx-auto text-center row">
+    <div class="torre-form-search col-sm-12 mx-auto">
+        <a class="icon-stack lift" href="#">
+          <i class="fas fa-id-card-alt icon-header"></i>
+        </a>
+    </div>
+    <div class="col-sm-8 col-md-6 mx-auto">
+      <form class="">
         <div class="input-group">
-          <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+          <input type="text" class="form-control bg-light small" placeholder="Search People" aria-label="Search" aria-describedby="basic-addon2">
           <div class="input-group-append">
-            <button class="btn btn-primary" type="button">
+            <button class="btn btn-primary btn-search" type="button">
               <i class="fas fa-search fa-sm"></i>
             </button>
           </div>
